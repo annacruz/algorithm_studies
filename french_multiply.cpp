@@ -1,18 +1,14 @@
 #include <iostream>
-#include <string>
-#include <stdio.h>
-#include <cstdlib>
 using namespace std;
+
 int main()
 {
+  int num1, num2;
   cout << "Please enter the first number: ";
-  std::string temp_num1;
-  cin >> temp_num1;
+  cin >> num1;
   cout << "Please enter the second number: ";
-  std::string temp_num2;
-  cin >> temp_num2;
-  int num1 = atoi(temp_num1.c_str());
-  int num2 = atoi(temp_num2.c_str());
+  cin >> num2;
+
   int temp_result = num1 * (num2 / 2);
 
 
